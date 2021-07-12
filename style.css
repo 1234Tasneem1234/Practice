@@ -8,10 +8,11 @@ body {
 }
 .nav-btn {
   text-align: center;
+  background-color: rgba(72, 106, 218, 0.397);
 }
 nav a {
   text-decoration: none;
-  color: rgb(8, 184, 2);
+  color: rgb(34, 196, 28);
   margin: 3px 15px;
 }
 nav a:hover {
