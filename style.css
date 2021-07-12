@@ -6,6 +6,19 @@ body {
   font-family: "Poppins", sans-serif;
   background-color: rgba(231, 231, 255, 0.562);
 }
+.nav-btn {
+  text-align: center;
+}
+nav a {
+  text-decoration: none;
+  color: rgb(8, 184, 2);
+  margin: 3px 15px;
+}
+nav a:hover {
+  color: aqua;
+  background-color: rgba(22, 22, 22, 0.616);
+  padding: 5px 15px;
+}
 main {
   display: flex;
   flex-direction: column;
@@ -131,6 +144,10 @@ hr {
   .container {
     width: 100%;
   }
+  .player img {
+    width: 150px;
+    height: 150px;
+  }
   .players,
   .blogs,
   .courses {
@@ -146,6 +163,10 @@ hr {
   .course {
     margin: 10px auto;
     padding-right: 10px auto;
+  }
+  .blog {
+    text-align: center;
+    align-items: center;
   }
 }
 /* tablet devices */
